@@ -3,7 +3,7 @@ function ativaPalavra(elemento){
     elemento.innerHTML = '';
     arrTexto.forEach((Palavra, i) => {
         setTimeout(() =>{
-            elemento.innerHTML += palavra;
+            elemento.innerHTML += Palavra;
         }, 75 * i);
     });
 }

@@ -111,6 +111,18 @@ header .navegacao-primaria li a:hover::after {
     max-width: 100%;
 }
 
+@keyframes pisca {
+    from {
+        opacity: 1;
+
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+
 @keyframes inicializar {
     from{
         opacity: 0;
